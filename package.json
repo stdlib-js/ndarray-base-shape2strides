@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-shape2strides",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Generate a stride array from an array shape.",
   "license": "Apache-2.0",
   "author": {
