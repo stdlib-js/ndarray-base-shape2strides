@@ -34,30 +34,20 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-shape2strides
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
+import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
 ```
 
 #### shape2strides( shape, order )
@@ -112,8 +102,8 @@ var bool = ( strides === out );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
-var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
+import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
+import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
 
 var strides;
 var shape;
@@ -135,105 +125,7 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/ndarray/base/shape2strides.h"
-```
-
-#### stdlib_ndarray_shape2strides( ndims, \*shape, order, \*out )
-
-Generates a stride array from an array shape.
-
-```c
-#include "stdlib/ndarray/orders.h"
-
-int64_t ndims = 3;
-int64_t shape[] = { 2, 3, 10 };
-int64_t out[ 3 ];
-
-stdlib_ndarray_shape2strides( ndims, shape, STDLIB_NDARRAY_ROW_MAJOR, out );
-```
-
-The function accepts the following arguments:
-
--   **ndims**: `[in] int64_t` number of dimensions.
--   **shape**: `[in] int64_t*` array shape (dimensions).
--   **order**: `[in] enum STDLIB_NDARRAY_ORDER` specifies whether an array is row-major (C-style) or column-major (Fortran-style).
--   **out**: `[out] int64_t*` output strides array.
-
-```c
-int8_t stdlib_ndarray_shape2strides( int64_t ndims, int64_t *shape, enum STDLIB_NDARRAY_ORDER order, int64_t *out );
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```c
-#include "stdlib/ndarray/base/shape2strides.h"
-#include "stdlib/ndarray/orders.h"
-#include <stdio.h>
-#include <inttypes.h>
-
-int main( void ) {
-    int64_t shape[] = { 2, 3, 10 };
-    int64_t ndims = 3;
-    int64_t out[ 3 ];
-
-    stdlib_ndarray_shape2strides( ndims, shape, STDLIB_NDARRAY_ROW_MAJOR, out );
-
-    int i;
-    printf( "strides = { " );
-    for ( i = 0; i < ndims; i++ ) {
-        printf( "%"PRId64"", out[ i ] );
-        if ( i < ndims-1 ) {
-            printf( ", " );
-        }
-    }
-    printf( " }\n" );
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
@@ -260,7 +152,7 @@ int main( void ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
