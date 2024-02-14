@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-shape2strides",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Generate a stride array from an array shape.",
   "license": "Apache-2.0",
   "author": {
@@ -39,10 +39,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-orders": "^0.1.1",
-    "@stdlib/types": "^0.2.0",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
-    "@stdlib/utils-library-manifest": "^0.1.1"
+    "@stdlib/ndarray-orders": "^0.2.0",
+    "@stdlib/types": "^0.3.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.0",
+    "@stdlib/utils-library-manifest": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.1.1",
