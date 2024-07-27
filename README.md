@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+shape2strides = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-shape2strides/tags). For example,
+
+```javascript
 shape2strides = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@v0.2.2-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var shape2strides = require( 'path/to/vendor/umd/ndarray-base-shape2strides/inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -135,7 +140,7 @@ var bool = ( strides === out );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
