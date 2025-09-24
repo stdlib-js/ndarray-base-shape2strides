@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-09-24)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#8129](https://github.com/stdlib-js/stdlib/issues/8129)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,9 @@
 
 <details>
 
+-   [`4dba8a6`](https://github.com/stdlib-js/stdlib/commit/4dba8a659480c7c39382084ba3bb7fdace936609) - **chore:** fix JavaScript lint errors [(#8134)](https://github.com/stdlib-js/stdlib/pull/8134) _(by Payal Goswami, Athan Reines)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`53de942`](https://github.com/stdlib-js/stdlib/commit/53de94256d47d502f47da4af97c0dfeb6ceb086e) - **refactor:** use base assertion utility _(by Athan Reines)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 
@@ -25,9 +40,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Payal Goswami
+-   Philipp Burckhardt
 
 </section>
 
