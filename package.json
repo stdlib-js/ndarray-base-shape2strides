@@ -39,10 +39,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-assert-is-column-major-string": "github:stdlib-js/ndarray-base-assert-is-column-major-string#main",
+    "@stdlib/ndarray-base-assert-is-column-major-string": "^0.1.0",
     "@stdlib/ndarray-orders": "^0.2.2",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
