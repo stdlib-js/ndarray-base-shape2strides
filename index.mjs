@@ -1,0 +1,4 @@
+// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import n from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@v0.2.3-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-column-major-string@v0.1.0-esm/index.mjs";function t(n,t){return r(t)?function(n){var r,t,e;for(r=[],t=1,e=0;e<n.length;e++)r.push(t),t*=n[e];return r}(n):function(n){var r,t,e,s;for(r=n.length,t=[],s=0;s<r;s++)t.push(0);for(e=1,s=r-1;s>=0;s--)t[s]=e,e*=n[s];return t}(n)}function e(n,t,e){return r(t)?function(n,r){var t,e;for(t=1,e=0;e<n.length;e++)r[e]=t,t*=n[e];return r}(n,e):function(n,r){var t,e;for(t=1,e=n.length-1;e>=0;e--)r[e]=t,t*=n[e];return r}(n,e)}n(t,"assign",e);export{e as assign,t as default};
+//# sourceMappingURL=index.mjs.map
