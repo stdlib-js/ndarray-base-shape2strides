@@ -41,7 +41,7 @@
   "dependencies": {
     "@stdlib/ndarray-base-assert-is-column-major-string": "^0.1.1",
     "@stdlib/ndarray-orders": "^0.2.3",
-    "@stdlib/types": "^0.4.3",
+    "@stdlib/types": "^0.5.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.4"
   },
