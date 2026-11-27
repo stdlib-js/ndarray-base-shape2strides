@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-25)
+## Unreleased (2026-11-27)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#16796](https://github.com/stdlib-js/stdlib/issues/16796)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`166a24a`](https://github.com/stdlib-js/stdlib/commit/166a24a18c739cd5e0f1eb23271158fd26e33170) - **chore:** fix C lint errors [(#16797)](https://github.com/stdlib-js/stdlib/pull/16797) _(by Kartik, Athan Reines)_
 -   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
 -   [`7fab453`](https://github.com/stdlib-js/stdlib/commit/7fab4532629dccd39b59721b833da8a9128a3dec) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11436)](https://github.com/stdlib-js/stdlib/pull/11436) _(by Karan Anand, Athan Reines)_
 
@@ -25,10 +38,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Kartik
 -   Philipp Burckhardt
 
 </section>
